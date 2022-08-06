@@ -23,6 +23,8 @@ function addressRedirect(link: string, depth: number) {
     throw new Error('not permitted url')
   }
 }
+
+
 console.log(isSpam("spam spam https://moimstg.page.link/dmCn", ["lab.github.com"], 1))
 console.log(isSpam("spam spam https://moimstg.page.link/dmCn", ["moimstg.page.link"], 1))
 console.log(isSpam("spam spam https://moimstg.page.link/dmCn", ["github.com"], 2))
