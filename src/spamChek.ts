@@ -30,4 +30,3 @@ console.log(isSpam("spam spam https://moimstg.page.link/dmCn", ["moimstg.page.li
 console.log(isSpam("spam spam https://moimstg.page.link/dmCn", ["github.com"], 2))
 console.log(isSpam("spam spam https://moimstg.page.link/dmCn", ["lab.github.com"], 2))
 console.log(isSpam("spam spam https://moimstg.page.link/dmCn", ["lab.github.com"], 3))
-console.log(isSpam("spam spam https://moimstg.page.link/dmCn", ["lab.github.com"], 2))
